@@ -1,0 +1,38 @@
+{
+    "app": {
+        "app_name": "云松采露",
+        "app_url": "127.0.0.1:8090",
+        "app_mode": "debug",
+        "app_web": "on",
+        "app_jwt": "off"
+    },
+    "session": {
+        "session_name": "orsession",
+        "session_secret": "yunsongcailu",
+        "session_mode": "redis"
+    },
+    "mysql": {
+        "mysql_driver": "mysql",
+        "mysql_addr": "root@tcp(127.0.0.1:3306)/order_serve?charset=utf8",
+        "mysql_show": true
+    },
+    "redis": {
+        "redis_addr": "127.0.0.1:6379",
+        "redis_pwd": "",
+        "redis_hold": 604800
+    },
+    "rabbitmq": {},
+    "alisms": {
+        "sms_name": "测试名称",
+        "template_code": "sss",
+        "app_key": "id",
+        "app_secret": "secret",
+        "region_id": "cn-hangzhou",
+        "tpl_id"    : "ju-he-sms-id",
+        "key"   : "ju-he-sms-secret"
+    },
+    "jwt": {
+        "jwt_key" : "yunsong",
+        "issuer": "abc.com"
+    }
+}
